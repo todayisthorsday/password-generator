@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  background-color: #1f2937;
+  color: whitesmoke;
+  font-family: sans-serif;
+  letter-spacing: 0.75px;
+  max-height: 100vh;
+  max-width: 574px;
+}
+div {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+h1 {
+  font-family: "futura", sans-serif;
+  line-height: 35%;
+  font-weight: boldest;
+  font-size: 39px;
+}
+
+h1.span {
+  color: #10b981;
+  margin-bottom: 5px;
+}
+
+p.tag {
+  line-height: 40px;
+  margin-bottom: 35px;
+}
+
+button {
+  background-color: #10b981;
+  border-radius: 3px;
+  border-style: none;
+  padding: 8px;
+  color: whitesmoke;
+  text-align: center;
+  letter-spacing: 0.75px;
+  margin-right: 3px;
+  min-width: 190px;
+}
+
+.line {
+  width: 320px;
+  border: none; /* Remove default border */
+  border-top: 1px solid #273549; /* Create a line with color and thickness */
+  margin: 20px 0;
+}
+
+div.pass {
+  display: inline-block;
+  margin: 1px;
+  min-height: 50px;
+  min-width: 185px;
+  /* max-width: 200px;  */
+  background-color: #273549;
+  border-radius: 5px;
+  padding: 0 3px;
+  font-family: monospace;
+  color: #10b981;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+div.copy {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 2px;
+}
